@@ -7,11 +7,195 @@
     <title>index</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
-
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/dog.jpg" style="width: 300px;" alt="cat">
-
+    <%- include('./layout/nav'); -%>
+    <nav>
+      <div class="d-flex">
+        <a class="p-item d-none p-d-block l-md bg-p-200" href="products.html">商品列表</a>
+        <a class="p-item d-none p-d-block l-md bg-p-100" href="about.html">品牌故事</a>
+    </div>
+    </nav>
+    <header>
+      <div class="header2 mb-64 p-mb-40">
+            <div class="title">
+              <h1 class="p-display2 display1 fw-700 n-0 mb-16 p-mb-8">URBNSTEP</h1>
+              <p class="h3 p-h5 fw-700 n-0 mb-48 p-mb-32">Your Step, Your Statement</p>
+              <button class="p300-btn l-md fw-500 n-900">立即選購</button>
+            </div>
+      </div>
+    </header>
+    <div class="container mb-88 p-mb-80">
+      <h2 class="ta-c display2 p-h2 fw-700 n-900 mb-12 p-mb-8">New Arrival</h2>
+      <p class="ta-c h2 p-h4 fw-700 n-900 mb-32 p-mb-24">新品上市</p>
+      <div class="row d-flex fw-w p-prl-6">
+        <div class="col-6 p-col-2">
+          <div class="new">
+            <img class="mb-12 p-mb-8" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-1.png?raw=true" alt="Monoverse">
+            <p class="mb-4 p-mb-0 h5 p-h6 fw-700 n-900">Monoverse</p>
+            <p class="mb-40 p-mb-24 l-md fw-500 n-900">NT$3,600</p>
+          </div>
+        </div>
+        <div class="col-6 p-col-2">
+          <div class="new">
+            <img class="mb-12 p-mb-8" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-2.png?raw=true" alt="PLATFORM 404">
+            <p class="mb-4 p-mb-0 h5 p-h6 fw-700 n-900">PLATFORM 404</p>
+            <p class="mb-40 p-mb-24 l-md fw-500 n-900">NT$2,600</p>
+          </div>
+        </div>
+        <div class="col-6 p-col-2">
+          <div class="new">
+            <img class="mb-12 p-mb-8" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-3.png?raw=true" alt="URBN Force">
+            <p class="mb-4 p-mb-0 h5 p-h6 fw-700 n-900">URBN Force</p>
+            <p class="mb-40 p-mb-24 l-md fw-500 n-900">NT$3,200</p>
+          </div>
+        </div>
+        <div class="col-6 p-col-2">
+          <div class="new">
+            <img class="mb-12 p-mb-8" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-4.png?raw=true" alt="Mode90">
+            <p class="mb-4 p-mb-0 h5 p-h6 fw-700 n-900">Mode90</p>
+            <p class="mb-40 p-mb-24 l-md fw-500 n-900">NT$4,000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-112 p-mb-64">
+      <h3 class="h2 p-h4 fw-700 n-900 ptb-5 mb-16">熱銷補貨</h3>
+      <div class="row p-300px-row d-flex p-fw-nw overflow">
+        <div class="col-3 p-300px">
+          <div class="no1">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt="product1">
+            <p class="l-md p-l-sm fw-500 p-400">人氣 No.1</p>
+          </div>
+        </div>
+        <div class="col-3 p-300px">
+          <div class="no1">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true" alt="product2">
+            <p class="l-md p-l-sm fw-500 p-400">人氣 No.1</p>
+          </div>
+        </div>
+        <div class="col-3 p-300px">
+          <div class="no1">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="product3">
+            <p class="l-md p-l-sm fw-500 p-400">人氣 No.1</p>
+          </div>
+        </div>
+        <div class="col-3 p-300px">
+          <div class="no1">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="product4">
+            <p class="l-md p-l-sm fw-500 p-400">人氣 No.1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sale mb-112 p-mb-64 d-flex fd-c ai-c jc-c">
+      <div class="d-flex p-fd-c p-ai-c mb-16">
+        <span class="display2 p-h2 fw-700 n-0 mr-24 p-mr-0 p-mb-8">URBNSTEP</span>
+        <span class="h1 p-h3 fw-700 p-300 mr-24 p-mr-0 p-mb-8">x</span>
+        <span class="display2 p-h2 fw-700 n-0">Kevin Chen</span>
+      </div>
+      <p class="h2 p-h5 fw-700 n-0 mb-32 p-mb-24">跨界聯名，限量發售</p>
+      <div class="d-flex mb-48 p-mb-32 p-fd-c p-ai-c">
+        <span class="p-lg p-p-md p-mb-4 fw-400 n-500">新銳漫畫家 Kevin Chen 親自操刀設計</span>
+        <span class="p-lg fw-400 n-500 p-d-none">，</span>
+        <span class="p-lg p-p-md fw-400 n-500">街頭能量全面引爆！</span>
+      </div>
+      <button class="p300-btn l-md fw-500 n-900">立即搶購</button>
+      <img class="star" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/star.svg" alt="star">
+      <img class="sparkle" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/sparkle.svg" alt="sparkle">
+    </div>
+    <div class="container mb-128 p-mb-80">
+      <h3 class="h2 p-h4 fw-700 n-900 mb-16">依系列選購</h3>
+      <div class="row d-flex p-fw-w p-prl-6">
+        <div class="col-3 p-col-2 p-mb-12">
+          <div class="category">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="URBN RUNNER">
+            <div class="title ta-c">
+              <p class="h3 p-h6 fw-700 n-0 mb-8">URBN RUNNER</p>
+              <p class="h4 p-h6 fw-700 n-0">慢跑系列</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 p-col-2 p-mb-12">
+          <div class="category">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/product-11.png?raw=true" alt="STREETMODE">
+            <div class="title ta-c">
+              <p class="h3 p-h6 fw-700 n-0 mb-8">STREETMODE</p>
+              <p class="h4 p-h6 fw-700 n-0">滑板系列</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 p-col-2">
+          <div class="category">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="CHUNK DISTRICT">
+            <div class="title ta-c">
+              <p class="h3 p-h6 fw-700 n-0 mb-8">CHUNK DISTRICT</p>
+              <p class="h4 p-h6 fw-700 n-0">厚底系列</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 p-col-2">
+          <div class="category">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/product-10.png?raw=true" alt="COLLAB ZONE">
+            <div class="title ta-c">
+              <p class="h3 p-h6 fw-700 n-0 mb-8">COLLAB ZONE</p>
+              <p class="h4 p-h6 fw-700 n-0">聯名企劃</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container4 mb-112 p-mb-64">
+      <h3 class="h2 p-h4 fw-700 n-900 p-ptb-5 mb-16">穿搭靈感</h3>
+      <div class="row4 p-300px-row d-flex overflow">
+        <div class="col4-4">
+          <div class="row4 d-flex fw-w p-fw-nw overflow">
+            <div class="col4-6 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-1.png?raw=true" alt="inspiration-1">
+            </div>
+            <div class="col4-6 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-2.png?raw=true" alt="inspiration-2">
+            </div>
+            <div class="col4-12 p-300px">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-3.png?raw=true" alt="inspiration-3">
+            </div>
+          </div>
+        </div>
+        <div class="col4-4">
+          <div class="row4 d-flex fw-w p-fw-nw overflow">
+            <div class="col4-6 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-4.png?raw=true" alt="inspiration-4">
+            </div>
+            <div class="col4-6 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-5.png?raw=true" alt="inspiration-5">
+            </div>
+            <div class="col4-6 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-6.png?raw=true" alt="inspiration-6">
+            </div>
+            <div class="col4-6 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-7.png?raw=true" alt="inspiration-7">
+            </div>
+            <div class="col4-6 p-300px">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-8.png?raw=true" alt="inspiration-8">
+            </div>
+            <div class="col4-6 p-300px">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-9.png?raw=true" alt="inspiration-9">
+            </div>
+          </div>
+        </div>
+        <div class="col4-4">
+          <div class="row4 d-flex fw-w p-fw-nw overflow">
+            <div class="col4-12 p-300px mb-8 p-mb-0">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-10.png?raw=true" alt="inspiration-10">
+            </div>
+            <div class="col4-6 p-300px">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-11.png?raw=true" alt="inspiration-11">
+            </div>
+            <div class="col4-6 p-300px">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-12.png?raw=true" alt="inspiration-12">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

@@ -1,4 +1,33 @@
+.ad{
+  height: 96px;
+}
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  background-color: #F8F9FA;
+}
+.logo{
+  width: 129px;
+}
+.item{
+  margin-right: 40px;
+  color: #212529;
+  font-weight: 500;
+}
+.bt{
+  border-top: 1px solid #DEE2E6;
+}
+.copyright{
+  max-width: 1320px;
+  padding: 0 12px;
+  
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .p-ad{
+    height: 88px;
+  }
+  .p-copyright{
+    padding: 0;
+    margin: 0 12px;
+  }
 }

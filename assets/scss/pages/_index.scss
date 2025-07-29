@@ -1,3 +1,115 @@
-.index-title {
-  font-size: 100px;
+.header2{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
+  padding: 288px 0;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.title{
+  max-width: 1568px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.new img{
+  width: 100%;
+}
+.no1{
+  position: relative;
+}
+.no1 img{
+  width: 100%;
+}
+.no1 p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 12px;
+  background-color: #F5FEE7;
+}
+.overflow{
+  overflow: hidden;
+  overflow-x: auto;
+}
+.sale{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+  height: 470px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.star{
+  position: absolute;
+  width: 48px;
+  top: 68px;
+  left: calc(50% - 397px);
+}
+.sparkle{
+  position: absolute;
+  width: 76px;
+  top: 274px;
+  right: calc(50% - 357px);
+}
+.category img{
+  width: 100%;
+}
+.category{
+  position: relative;
+}
+.category .title{
+  position: absolute;
+  background-color: rgba(black, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container4 img{
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .title{
+    min-width: none;
+    padding: 0 24px;
+    margin: 0;
+  }
+  .p-item{
+    display: block;
+    width: 50%;
+    padding: 12px 0;
+    text-align: center;
+    color: #212529;
+    font-weight: 500;
+  }
+  .header2{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    padding: 155px 0;
+  }
+  .sale{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+  height: 450px;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  }
+  .star{
+  position: absolute;
+  top: 32px;
+  left: -20px;
+  }
+  .sparkle{
+  position: absolute;
+  top: 282px;
+  right: -28px;
+  }
 }

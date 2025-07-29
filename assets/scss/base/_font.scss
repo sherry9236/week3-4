@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.display1{
+    font-size: 64px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.display2{
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h1{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h2{
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h3{
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h4{
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h5{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h6{
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 767px) {
+  .p-h5{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .p-h3{
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+  .p-h6{
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+  .p-h2{
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+  .p-h4{
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+  .p-display2{
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+}
+
+.l-lg{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.l-md{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.l-sm{
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.l-xs{
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.p-lg{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.p-md{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.p-sm{
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.p-xs{
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 767px) {
+    .p-l-sm{
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    }
+    .p-p-md{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+}
+
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-700{
+    font-weight: 700;
+}
+.ta-c{
+    text-align: center;
+}

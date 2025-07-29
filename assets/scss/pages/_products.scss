@@ -1,0 +1,14 @@
+.col-4 img{
+    width: 100%;
+}
+.list li{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list i{
+    font-size: 20px;
+}

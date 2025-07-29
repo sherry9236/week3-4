@@ -1,0 +1,71 @@
+.mainimg{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+    border-radius: 12px;
+}
+.logo{
+  width: 129px;
+}
+.item{
+  margin-right: 40px;
+  color: #212529;
+  font-weight: 500;
+}
+.bt{
+  border-top: 1px solid #DEE2E6;
+}
+.copyright{
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+.login{
+    padding: 120px 80px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 12px;
+}
+.login a{
+    display: block;
+    width: 50%;
+    padding: 12px 0;
+}
+.login .achive{
+  border-bottom: 2px solid #212529;
+}
+.login .none{
+  border-bottom: 2px solid #DEE2E6;
+}
+.login li{
+  height: 64px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: 1px solid #DEE2E6;
+}
+.login img{
+  width: 40px;
+}
+.login p{
+  text-align: left;
+}
+.hero{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+  .p-copyright{
+    padding: 0;
+    margin: 0 12px;
+  }
+  .login{
+    background-image: none;
+    padding: 0 12px;
+  }
+}

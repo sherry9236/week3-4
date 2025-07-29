@@ -1,5 +1,16 @@
-@import './layout/header.scss';
+@import './base/reset.scss';
+@import './base/utils.scss';
+@import './base/font.scss';
+@import './base/color.scss';
+
+@import './components/button.scss';
+
+@import './layout/nav.scss';
 @import './layout/footer.scss';
 
 
 @import './pages/index.scss';
+@import './pages/about.scss';
+@import './pages/products.scss';
+@import './pages/login.scss';
+@import './pages/signin.scss';
